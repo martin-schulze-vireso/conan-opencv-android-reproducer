@@ -28,5 +28,5 @@ jobs:
       - name: Install conan
         run: |
           sudo apt-get update
-          sudo apt-get install pip3
+          sudo apt-get install python3-pip
           sudo pip3 install conan
